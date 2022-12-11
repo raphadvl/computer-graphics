@@ -37,7 +37,7 @@ cores = ((0,0,0),(1,0,0),(0,1,0),(0,0,1),(0,0,1),(1,0,1),(0.5,1,1),(1,0,0.5))
 
 a = 0
 
-def piramide():
+def prisma():
     glPushMatrix()
     glRotatef(a,1,1,0)
     
@@ -75,7 +75,7 @@ def desenha():
     global a
     glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT)
     glPushMatrix()
-    piramide()
+    prisma()
     glPopMatrix()
     a += 0.1
 
