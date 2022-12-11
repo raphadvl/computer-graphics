@@ -111,7 +111,7 @@ class GLAPP(ABC):
     def loadPipeline(self, pipelineName):
         shaders = {}
         for extension, type in shaderExtensions.items():
-            filename = f"./pipeline/{pipelineName}/{pipelineName}.{extension}"
+            filename = f"./T1/C5/pipeline/{pipelineName}/{pipelineName}.{extension}"
             if os.path.exists(filename):
                 with open(filename,"r") as f:
                     shaders[type] = f.read()

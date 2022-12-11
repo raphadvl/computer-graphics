@@ -64,7 +64,7 @@ class SolidoFuncionalTextureApp(GLAPP):
         GL.glUseProgram(self.pipeline)
         # Texture
         GL.glActiveTexture(GL.GL_TEXTURE0)
-        self.loadTexture("./mapa.png")
+        self.loadTexture("./T1/C4/mapa.png")
         GL.glUniform1i(GL.glGetUniformLocation(self.pipeline, "textureSlot"),0)
         self.squareArrayBufferId = None
 
