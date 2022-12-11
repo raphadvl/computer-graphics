@@ -20,8 +20,8 @@ Para cada uma das construções execute o comando abaixo:
 2. Polígono estrelado
     * ```$ start ./T1/C2/poligono.html```
 3. Prisma e pirâmide
-    * ```$ python ./T1/C3/prisma.py```
-    * ```$ python ./T1/C3/piramide.py```
+    * ```$ python ./T1/C3/Prisma/prisma.py```
+    * ```$ python ./T1/C3/Piramide/piramide.py```
 4. Esfera
     * ```$ python ./T1/C4/esfera.py```
 5. Malha definida por uma função 
