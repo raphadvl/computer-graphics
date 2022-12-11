@@ -9,7 +9,6 @@ import math
 def solidoFuncional(fv,N):
     #vertices
     v = array('f',[])
-    t = array('f',[])
 
     def adiciona(lista,vertice):
         for v in vertice:
